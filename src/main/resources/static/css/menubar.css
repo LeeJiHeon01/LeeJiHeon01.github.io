@@ -1,0 +1,35 @@
+* {
+    background-color: #000;
+}
+.index_container {
+    height: 100%;
+}
+.view_container {
+    padding: 5px;
+}
+.view_sub_container {
+    padding: 10px;
+}
+.container_top {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.index_sub_container {
+    width: 80%;
+    margin: 10% auto;
+}
+.hr_tag {
+    border: none;
+    border-bottom: 1px solid #fff ;
+    height: 1px;
+}
+.menubar_box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+}
+.menuList h1 {
+    color: #fff;
+}

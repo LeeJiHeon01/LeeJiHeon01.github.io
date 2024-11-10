@@ -1,0 +1,73 @@
+* {
+    background-color: #000;
+    padding: 5px;
+}
+@media (max-width: 500px) {
+    * {
+        padding: 2px;
+    }
+}
+.menubar_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menubar_box h1 {
+    color : #fff;
+}
+.plot_container {
+    height: 100%;
+}
+.plot_sub_container {
+    width: 80%;
+    margin: 3% auto;
+}
+.story_box {
+    color: white;
+}
+.plot_img_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ImgLogoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.ImgLogoBox img{
+    width: 100px;
+    height: 100px;
+}
+.story_box b {
+    padding: 0;
+}
+.list_sub_box img {
+    width: 100px;
+    height: 100px;
+}
+.story_box span {
+    background: #656565;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.youtubeLink {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+@media (max-width: 500px) {
+    .plot_img_box a img {
+        width: 300px;
+        height: 300px;
+    }
+    .plot_sub_container {
+        width:100%;
+        margin: 3% auto;
+    }
+    .story_box span {
+        padding: 5px;
+    }
+}
