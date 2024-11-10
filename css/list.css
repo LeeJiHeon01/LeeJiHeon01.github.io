@@ -36,6 +36,7 @@
     width: 100%;
 }
 .list_title_box {
+    flex: 8;
     color : #fff;
 }
 .list_box .play_btn {
@@ -62,7 +63,12 @@
 .list_sub_box img{
     width: 100px;
     height: 100px;
+    flex: 1;
 }
+.list_sub_box a {
+    flex: 1;
+}
+
 @media (max-width: 500px) {
     * {
         padding: 1px;
